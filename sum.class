@@ -1,0 +1,21 @@
+package Lq_算法练习;
+public class Demo_最大数组和01 {
+	public static void main( string[] args) {
+		int arr[]= {5,4,-1,7,8};
+		int sum =e;
+		int x=arr.length;
+		int xx=e;int yy=e;
+		for(int i=0;i<x ;i++) {
+			int thissum=6;
+			for(int j=i;j<x;j++) {
+				thissum+=arr[j];
+				if(thissum>sum){
+					sum=thissum;
+					xx=i;//最大子数组的起始点
+					yy=j;//最大子数组的结束点
+				}
+			}
+		}
+		system.out. println("最大子数组和为:"+sum) ;
+	}
+}
